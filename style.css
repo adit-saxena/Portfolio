@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
   }
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
@@ -31,6 +32,8 @@
   }
 
   @media screen and (max-width: 600px) {
+
+    
     
    nav {
     padding-top: 1vh;
@@ -50,7 +53,15 @@
     left: 1vh;
     right: 1vh;
    }
-  }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10vw;
+      transition: background-color 0.3s ease;
+    }
+   }
+  
   .content{
     display: flex;
     flex-direction: column;
@@ -81,6 +92,8 @@
     transition: background-color 0.3s ease;
   }
   @media screen and (min-width: 600px) {
+
+    
 
   nav ul li a:hover {
     color: #FFC700;
@@ -227,6 +240,7 @@
   /* Home Section */
 
 #home {
+  
   position: relative;
     background-color: #101010;
     padding: 3% ;
