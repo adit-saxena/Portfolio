@@ -40,11 +40,28 @@
    .asimage {
     display: none;
    }
-   #home {
-    padding-top: 25vh;
+   .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 1vh;
+    margin: 1vh;
+    left: 1vh;
+    right: 1vh;
    }
   }
-  
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 6vh;
+    margin: 1vh;
+    left: 1vh;
+    right: 1vh;
+    opacity: 1;
+  }
   nav ul {
     display: flex;
     flex-direction: row;
@@ -210,7 +227,7 @@
   /* Home Section */
 
 #home {
-  
+  position: relative;
     background-color: #101010;
     padding: 3% ;
     margin: 0%;
