@@ -40,6 +40,9 @@
    .asimage {
     display: none;
    }
+   #home {
+    padding-top: 25vh;
+   }
   }
   
   nav ul {
